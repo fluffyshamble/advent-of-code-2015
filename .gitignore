@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+.idea
+
+# Day 1
+day-01-not-quite-lisp/test_instructions.txt
+day-01-not-quite-lisp/instructions.txt
