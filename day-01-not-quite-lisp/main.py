@@ -9,8 +9,11 @@ def lift_sequence(filename):
             floor -= 1
         else:
             print "Invalid instruction in instructions"
+        if floor == -1:
+            # use i + 1 to conform with AoC index rules
+            print "Entered basement at instruction %s" % (i+1)
     print "Floor: %s" % floor
 
 
 if __name__ == "__main__":
-    lift_sequence("test_instructions.txt")
+    lift_sequence("instructions.txt")
